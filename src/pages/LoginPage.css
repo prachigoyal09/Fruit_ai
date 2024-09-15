@@ -1,0 +1,164 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  height: 100vh;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.terms-box {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.highlight {
+  color: #0386d0;
+}
+
+.tab-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid #0386d0;
+  color: #0386d0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  position: relative;
+  /* margin-bottom: 20px; */
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.input-icon.right {
+  left: auto;
+  right: 10px;
+  font-size: 2rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border-radius: 1px;
+  border-bottom: 2px solid #aaa;
+  line-height: 2;
+  /* margin-bottom: 15px; */
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.forgot-link {
+  color: #0386d0;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #0386d0;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.or-connect {
+  text-align: center;
+  margin: 20px 0;
+  color: #777;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+
+.fingerprint-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fingerprint-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #0386d0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fingerprint-icon svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.error-message {
+  color: #ff0000;
+  background-color: #ffeeee;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+.fruit-ai-container {
+    height: 100vh;
+    background: linear-gradient(90deg, #E0BCF3 0%, #7EE7EE 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .app-button1{
+    background-color: #c2ffd0;
+    width: 137px;   
+    height: 139px;
+    top: 162px;
+    left: 202px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  
+  .app-button2 {
+    background-color: #efffc2;
+    width: 137px;
+    height: 139px;
+    top: 314px;
+    left: 41px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  
+  .app-button:active {
+    transform: scale(0.95);
+  }
+  
+  .chat {
+    font-weight: 800;
+    font-size: 40.5px;
+    background-color: #ffe5c2;
+    color: #C84AD3;
+    width: 137px;
+    height: 139px;
+    top: 157px;
+    left: 41px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  
+  .translate {
+    background-color: #c2f0ff;
+    color: #1a5fb4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 139px;
+    top: 314px;
+    left: 197px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+
+  img{
+    width: 58.33px;
+    height: 58.33px;
+    top: 5.83px;
+    left: 5.83px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .faqs {
+    font-weight: 800;
+    font-size: 40.5px;
+    background-color: #e4caff;
+    color: #3b5998;
+    width: 137px;
+    height: 139px;
+    top: 476px;
+    left: 46px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  
+  .about {
+    font-weight: 800;
+    font-size: 40.5px;
+    background-color: #ffc2f2;
+    color: #c84ad3;
+    width: 137px;
+    height: 139px;
+    top: 476px;
+    left: 202px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .dot.active {
+    background-color: white;
+  }
+
+  
